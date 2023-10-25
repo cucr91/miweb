@@ -1,0 +1,2 @@
+archivo2.txt
+este es mi segundo archivo2
