@@ -3,12 +3,25 @@
 <head>
     <title>Mi Página Web</title>
     <style>
+        /* Estilo para el fondo de la página */
+        body {
+            background-color: pink; /* Fondo rosa */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
         /* Estilo para el encabezado */
         header {
-            background-color: #333;
+            background-color: #ffd700; /* Dorado */
             color: #fff;
             text-align: center;
             padding: 10px;
+            width: 100%;
         }
 
         /* Estilo para el párrafo principal */
@@ -24,13 +37,21 @@
 
         /* Estilo para el footer */
         footer {
-            background-color: #333;
+            background-color: #ffd700; /* Dorado */
             color: #fff;
             text-align: center;
             padding: 10px;
-            position: absolute;
-            bottom: 0;
             width: 100%;
+        }
+
+        /* Estilo para la imagen */
+        .centered-image {
+            text-align: center;
+        }
+
+        .centered-image img {
+            width: 100px;
+            height: 100px;
         }
     </style>
 </head>
@@ -42,6 +63,9 @@
         <p>Bienvenido a mi página web. Esta es una página de ejemplo que incluye HTML y CSS.</p>
         <p>Puedes aprender más sobre programación en <a href="https://www.example.com">nuestra página de inicio</a>.</p>
     </main>
+    <div class="centered-image">
+        <img src="./imagenes/WhatsApp Image 2023-10-27 at 10.10.28 PM.jpeg" alt="Imagen" width="100" height="100">
+    </div>
     <footer>
         <p>&copy; 2023 Mi Página Web</p>
     </footer>
